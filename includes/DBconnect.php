@@ -16,11 +16,9 @@
 
             if (mysqli_connect_error()) {
                 echo "Connection Failed";
-            }  
-                                 
+            }                                
             return $this->con;
         }
-
         
     }
 ?>
