@@ -15,9 +15,9 @@
             $this->con = new mysqli(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 
             if (mysqli_connect_error()) {
-                echo "Connected Failed";
-            }
-
+                echo "Connection Failed";
+            }  
+                                 
             return $this->con;
         }
 
